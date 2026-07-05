@@ -1,43 +1,58 @@
+AI Content Generator
 
----
+This project was developed as part of the DecodeLabs Generative AI Internship (Week 2).
 
-# 3️⃣ Week 2 README.md
+The purpose of this project is to generate high-quality written content using Google's Gemini AI. Users can enter a topic, and the application generates well-structured content based on the given prompt.
 
-`Week-2-AI-Copywriter-And-Tone-Transformer/README.md`
+Project Features
 
-````markdown
-# AI Copywriter and Tone Transformer
+- AI-powered content generation
+- Supports different writing topics
+- Fast response generation
+- Easy command-line interface
+- Prompt engineering implementation
 
-An AI powered marketing copy generator capable of generating platform-specific content with customizable tones.
+Technologies Used
 
-## Features
-
-- Dynamic Prompt Engineering
-- Multiple Platform Support
-- Multiple Tone Support
-- Temperature Control
-- Top-P Control
-
-## Supported Platforms
-
-- LinkedIn
-- Instagram
-- Email
-
-## Supported Tones
-
-- Professional
-- Casual
-- Friendly
-- Luxury
-- Persuasive
-
-## Technologies Used
-
-- Python
+- Python 3.12
 - Google Gemini API
+- google-genai
 
-## Installation
+Project Structure
+
+```
+Task 2 - AI Content Generator
+
+app.py
+generator.py
+prompt.py
+config.py
+requirements.txt
+README.md
+```
+
+Installation
 
 ```bash
-pip install google-genai
+pip install -r requirements.txt
+```
+
+Configuration
+
+Update your Gemini API key inside `config.py`.
+
+Run
+
+```bash
+python app.py
+```
+
+Learning Outcomes
+
+This project improved my understanding of prompt engineering, text generation, API integration, and Python project organization.
+
+Author
+
+Falgun Nagpure
+
+DecodeLabs Generative AI Internship – Week 2
